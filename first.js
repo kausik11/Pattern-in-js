@@ -144,3 +144,18 @@ for (let i = 1; i <= rows; i++) {
     }
     document.write('<br>');
 }
+
+document.write('<br>');
+
+//1th approach 
+for (let i = 1; i <=rows; i++) {
+     for (let space = rows; space > i ; space--) {
+           document.write('&nbsp&nbsp');  
+     }
+     for (let star = 1; star <= i ; star++) {
+            document.write('*');
+        
+     }
+     document.write('<br>');
+    
+}
