@@ -159,3 +159,37 @@ for (let i = 1; i <=rows; i++) {
      document.write('<br>');
     
 }
+
+document.write('<br>');
+
+//12th approach for pyramid pattern with *
+for (let i = 1; i <= rows; i++) {
+   for (let space = rows; space>i; space--) {
+     document.write('&nbsp&nbsp');
+   } 
+   for (let star = 1; star <= ((2*i)-1) ; star++) {
+       document.write('*');
+   }
+   document.write('<br>');
+} 
+
+document.write('<br>');
+//13th approach start from 5 to 1
+for (let i = rows; i >= 1 ; i--) {
+    for (let num = rows; num > rows-i; num--) {
+       document.write(num);
+    }
+    document.write('<br>');
+}
+document.write('<br>');
+
+//14th approach 
+for (let i = rows; i >= 1; i--) {
+    for (let num = rows; num > rows-i; num--) {
+         document.write(num);
+    }
+    document.write('<br>');
+    rows--;
+    
+}
+ document.write('<br>');
