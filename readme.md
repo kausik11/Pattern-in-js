@@ -1,5 +1,5 @@
 Here i am trying to draw all possibles pattern with js
-
+<pre>
 1****
 12***
 123**
@@ -53,3 +53,4 @@ AAAAAAAAA
 *****
 *****
 *****
+</pre>
